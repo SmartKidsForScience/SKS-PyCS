@@ -17,3 +17,5 @@ To make sure that you have created a working installation:
   - create New notebook
   - in the input cell, type `print("Hello")` and press Shift-Enter (or click the Play menu button). 
     You should see `Hello` printed in the Out cell.
+
+If you run into problems, submit an [Issue at our GitHub repository](https://github.com/SmartKidsForScience/SKS-PyCS/issues).
