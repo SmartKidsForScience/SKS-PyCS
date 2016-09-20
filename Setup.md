@@ -22,6 +22,8 @@ For a more descriptive introduction into the concepts and user interface of the 
 you can watch, for instance, 
 [Awesome Data Science: 1.0 Jupyter Notebook Tour](https://www.youtube.com/watch?v=e9cSF3eVQv0).
 
+Just for fun, hard core lesson [IPython Notebook best practices for data science](https://www.youtube.com/watch?v=JI1HWUAyJHE) 
+
 You can also go through the first couple of lessons of Python at the [Software Carpentry](https://swcarpentry.github.io/python-novice-gapminder/) in order to get some
 practice in using the Notebooks.
 
