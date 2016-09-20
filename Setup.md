@@ -18,4 +18,11 @@ To make sure that you have created a working installation:
   - in the input cell, type `print("Hello")` and press Shift-Enter (or click the Play menu button). 
     You should see `Hello` printed in the Out cell.
 
+For a more descriptive introduction into the concepts and user interface of the Jupyter Notebooks, 
+you can watch, for instance, 
+[Awesome Data Science: 1.0 Jupyter Notebook Tour](https://www.youtube.com/watch?v=e9cSF3eVQv0).
+
+You can also go through the first couple of lessons of Python at the [Software Carpentry](https://swcarpentry.github.io/python-novice-gapminder/) in order to get some
+practice in using the Notebooks.
+
 If you run into problems, submit an [Issue at our GitHub repository](https://github.com/SmartKidsForScience/SKS-PyCS/issues).
