@@ -16,3 +16,11 @@ Note that the RLE edition that we will be using deviates in substantial ways fro
 The Python environment that we will be using \(Jupyter Notebooks\) is different from the environment used in the book \(either RLE or the prior paper edition\). Therefore, make sure that you follow the **Setup** instructions linked above and verify 
 that you are actually able to start Python3 Jupyter Notebook and execute commands *before you come to class*. At the first class session, we will address any problems that you might have encountered while setting up your environemnt at home.
 
+## Lessons
+
+ - To view lessons from the 
+   [GitHub Pages of our site](https://smartkidsforscience.github.io/SKS-PyCS/index.html)
+
+ - If you cloned our repository locally, you can view the
+   [local copy of the lessons](docs/index.html)
+
