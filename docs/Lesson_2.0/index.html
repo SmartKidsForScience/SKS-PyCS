@@ -19,17 +19,53 @@
   <body>
     <textarea id="source">
 
-class: left, middle
-
 # What a typical computer is
+
+![](basic_computer.jpg)
+
+What is the most basic model of a universal computing machine?
 
 ---
 
 # Turing machine
 
- - [Video](https://www.youtube.com/watch?v=dNRDvLACg5Q)
- - Discuss a problem and build a Turing machine that solves it
+ - [Watch Video](https://www.youtube.com/watch?v=dNRDvLACg5Q)
+ 
+![](turing_machine_video_screenshot.png)
+  
+---
 
+# Explore 2D Turing Machine
+ 
+ - Machine that has two dimensional "tape" on that the machine moves
+ - 2D machine makes it easier to create visual demonstrations of
+   its behaviour
+ - We will use a Java implementation [TuringKara](http://www.swisseduc.ch/informatik/karatojava/turingkara/index.html)
+ - Download JAR file for Java 8, English Version, with solutions, from [here](http://www.swisseduc.ch/informatik/karatojava/download.html). 
+   Use Google translate to read the page if you do not know German.
+ - Install Java on your computer with Conda if needed
+
+---
+
+# Exploring the maze with 2D Turing Machine
+
+ - Open the [English manual](http://www.swisseduc.ch/compscience/karatojava/turingkara/docs/turingkara_manual-en.pdf) and study how to program and operate the machine.
+ - We will load one the maze problems from Exercises menu, run the machine, and study 
+   how the states and positions on the 2D tape change.
+   ![](turing_machine_2d_manual.png)
+   
+---
+
+# Notes on working with TuringKara
+
+ - Do not confuse moves with states (the names are the same). Move is where you are going;
+   state is in what direction you stepped in the last time. 
+ - Double moves per transition can be used to instantly backtrack from the #. 
+ - There is also an alphabet symbol for the move, which is written to point in 
+   the direction opposite to the state name in which is was written.
+ - States are explored clockwise; this way once we get to South, we already know 
+   that we explored the neighbourhood, and thus we can start backtracking if we 
+   are on an arrow cell.
 
     </textarea>
     <script src="../vendor/remark.min.js" type="text/javascript">
